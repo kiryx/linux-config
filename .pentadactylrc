@@ -1,0 +1,12 @@
+"1.0b6 (created: 2011/03/09 09:25:18)
+
+loadplugins '\.(js|penta)$'
+group user
+set autocomplete=0
+map h gT
+map l gt
+map <S-j> 8j
+map <S-k> 8k
+set go+=B
+
+" vim: set ft=pentadactyl:

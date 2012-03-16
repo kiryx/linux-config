@@ -1,0 +1,2821 @@
+#include "ui/menudef.h"
+
+  /* --- Armor bar --- */
+menuDef {
+	name "box"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 343 457 294 12 
+
+	itemDef {
+	  name "boxBackground"
+		rect 0 0  294 12 
+		visible 1
+		style WINDOW_STYLE_FILLED
+		backcolor 0 0 0 0.5
+	}
+	
+	itemDef {
+		name "bar_100_0"
+		visible 1
+		rect 0 -0.86 0 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 0 1 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_1"
+		visible 1
+		rect 0 -0.86 6 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 2 3 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_2"
+		visible 1
+		rect 0 -0.86 12 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 4 5 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_3"
+		visible 1
+		rect 0 -0.86 18 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 6 7 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_4"
+		visible 1
+		rect 0 -0.86 24 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 8 9 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_5"
+		visible 1
+		rect 0 -0.86 29 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 10 11 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_6"
+		visible 1
+		rect 0 -0.86 35 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 12 13 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_7"
+		visible 1
+		rect 0 -0.86 41 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 14 15 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_8"
+		visible 1
+		rect 0 -0.86 47 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 16 17 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_9"
+		visible 1
+		rect 0 -0.86 53 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 18 19 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_10"
+		visible 1
+		rect 0 -0.86 59 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 20 21 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_11"
+		visible 1
+		rect 0 -0.86 65 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 22 23 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_12"
+		visible 1
+		rect 0 -0.86 71 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 24 25 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_13"
+		visible 1
+		rect 0 -0.86 76 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 26 27 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_14"
+		visible 1
+		rect 0 -0.86 82 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 28 29 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_15"
+		visible 1
+		rect 0 -0.86 88 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 30 31 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_16"
+		visible 1
+		rect 0 -0.86 94 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 32 33 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_17"
+		visible 1
+		rect 0 -0.86 100 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 34 35 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_18"
+		visible 1
+		rect 0 -0.86 106 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 36 37 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_19"
+		visible 1
+		rect 0 -0.86 112 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 38 39 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_20"
+		visible 1
+		rect 0 -0.86 118 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 40 41 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_21"
+		visible 1
+		rect 0 -0.86 123 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 42 43 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_22"
+		visible 1
+		rect 0 -0.86 129 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 44 45 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_23"
+		visible 1
+		rect 0 -0.86 135 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 46 47 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_24"
+		visible 1
+		rect 0 -0.86 141 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 48 49 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_25"
+		visible 1
+		rect 0 -0.86 147 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 50 51 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_26"
+		visible 1
+		rect 0 -0.86 153 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 52 53 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_27"
+		visible 1
+		rect 0 -0.86 159 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 54 55 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_28"
+		visible 1
+		rect 0 -0.86 165 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 56 57 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_29"
+		visible 1
+		rect 0 -0.86 171 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 58 59 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_30"
+		visible 1
+		rect 0 -0.86 176 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 60 61 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_31"
+		visible 1
+		rect 0 -0.86 182 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 62 63 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_32"
+		visible 1
+		rect 0 -0.86 188 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 64 65 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_33"
+		visible 1
+		rect 0 -0.86 194 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 66 67 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_34"
+		visible 1
+		rect 0 -0.86 200 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 68 69 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_35"
+		visible 1
+		rect 0 -0.86 206 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 70 71 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_36"
+		visible 1
+		rect 0 -0.86 212 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 72 73 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_37"
+		visible 1
+		rect 0 -0.86 218 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 74 75 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_38"
+		visible 1
+		rect 0 -0.86 223 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 76 77 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_39"
+		visible 1
+		rect 0 -0.86 229 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 78 79 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_40"
+		visible 1
+		rect 0 -0.86 235 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 80 81 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_41"
+		visible 1
+		rect 0 -0.86 241 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 82 83 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_42"
+		visible 1
+		rect 0 -0.86 247 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 84 85 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_43"
+		visible 1
+		rect 0 -0.86 253 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 86 87 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_44"
+		visible 1
+		rect 0 -0.86 259 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 88 89 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_45"
+		visible 1
+		rect 0 -0.86 265 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 90 91 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_46"
+		visible 1
+		rect 0 -0.86 270 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 92 93 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_47"
+		visible 1
+		rect 0 -0.86 276 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 94 95 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_48"
+		visible 1
+		rect 0 -0.86 282 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 96 97 1 1 1 0.67 
+	}
+	itemDef {
+		name "bar_100_49"
+		visible 1
+		rect 0 -0.86 288 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 98 99 1 1 1 0.67 
+	}
+
+	itemDef {
+		name "bar_100"
+		visible 1
+		rect 0 -0.86 294 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 100 200 1 1 1 0.67 
+	}
+	
+	itemDef {
+		name "bar_200_1"
+		visible 1
+		rect 0 -0.86 6 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 102 103 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_2"
+		visible 1
+		rect 0 -0.86 12 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 104 105 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_3"
+		visible 1
+		rect 0 -0.86 18 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 106 107 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_4"
+		visible 1
+		rect 0 -0.86 24 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 108 109 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_5"
+		visible 1
+		rect 0 -0.86 29 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 110 111 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_6"
+		visible 1
+		rect 0 -0.86 35 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 112 113 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_7"
+		visible 1
+		rect 0 -0.86 41 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 114 115 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_8"
+		visible 1
+		rect 0 -0.86 47 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 116 117 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_9"
+		visible 1
+		rect 0 -0.86 53 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 118 119 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_10"
+		visible 1
+		rect 0 -0.86 59 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 120 121 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_11"
+		visible 1
+		rect 0 -0.86 65 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 122 123 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_12"
+		visible 1
+		rect 0 -0.86 71 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 124 125 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_13"
+		visible 1
+		rect 0 -0.86 76 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 126 127 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_14"
+		visible 1
+		rect 0 -0.86 82 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 128 129 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_15"
+		visible 1
+		rect 0 -0.86 88 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 130 131 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_16"
+		visible 1
+		rect 0 -0.86 94 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 132 133 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_17"
+		visible 1
+		rect 0 -0.86 100 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 134 135 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_18"
+		visible 1
+		rect 0 -0.86 106 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 136 137 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_19"
+		visible 1
+		rect 0 -0.86 112 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 138 139 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_20"
+		visible 1
+		rect 0 -0.86 118 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 140 141 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_21"
+		visible 1
+		rect 0 -0.86 123 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 142 143 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_22"
+		visible 1
+		rect 0 -0.86 129 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 144 145 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_23"
+		visible 1
+		rect 0 -0.86 135 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 146 147 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_24"
+		visible 1
+		rect 0 -0.86 141 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 148 149 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_25"
+		visible 1
+		rect 0 -0.86 147 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 150 151 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_26"
+		visible 1
+		rect 0 -0.86 153 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 152 153 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_27"
+		visible 1
+		rect 0 -0.86 159 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 154 155 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_28"
+		visible 1
+		rect 0 -0.86 165 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 156 157 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_29"
+		visible 1
+		rect 0 -0.86 171 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 158 159 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_30"
+		visible 1
+		rect 0 -0.86 176 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 160 161 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_31"
+		visible 1
+		rect 0 -0.86 182 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 162 163 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_32"
+		visible 1
+		rect 0 -0.86 188 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 164 165 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_33"
+		visible 1
+		rect 0 -0.86 194 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 166 167 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_34"
+		visible 1
+		rect 0 -0.86 200 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 168 169 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_35"
+		visible 1
+		rect 0 -0.86 206 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 170 171 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_36"
+		visible 1
+		rect 0 -0.86 212 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 172 173 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_37"
+		visible 1
+		rect 0 -0.86 218 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 174 175 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_38"
+		visible 1
+		rect 0 -0.86 223 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 176 177 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_39"
+		visible 1
+		rect 0 -0.86 229 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 178 179 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_40"
+		visible 1
+		rect 0 -0.86 235 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 180 181 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_41"
+		visible 1
+		rect 0 -0.86 241 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 182 183 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_42"
+		visible 1
+		rect 0 -0.86 247 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 184 185 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_43"
+		visible 1
+		rect 0 -0.86 253 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 186 187 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_44"
+		visible 1
+		rect 0 -0.86 259 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 188 189 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_45"
+		visible 1
+		rect 0 -0.86 265 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 190 191 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_46"
+		visible 1
+		rect 0 -0.86 270 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 192 193 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_47"
+		visible 1
+		rect 0 -0.86 276 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 194 195 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_48"
+		visible 1
+		rect 0 -0.86 282 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 196 197 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_49"
+		visible 1
+		rect 0 -0.86 288 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 198 199 0.3 0.8 0 0.8 
+	}
+	itemDef {
+		name "bar_200_50"
+		visible 1
+		rect 0 -0.86 294 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange 200 201 0.3 0.8 0 0.8 
+	}
+}
+
+/* --- Health bar --- */
+menuDef {
+	name "box"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 3 458 294 12 
+
+	itemDef {
+	  name "boxBackground"
+		rect 0 0  294 12 
+		visible 1
+		style WINDOW_STYLE_FILLED
+		backcolor 0 0 0 0.49 
+	}
+	
+	itemDef {
+		name "bar_100_0"
+		visible 1
+		rect 294 -0.86 0 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 0 1 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_1"
+		visible 1
+		rect 288 -0.86 6 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 2 3 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_2"
+		visible 1
+		rect 282 -0.86 12 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 4 5 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_3"
+		visible 1
+		rect 276 -0.86 18 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 6 7 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_4"
+		visible 1
+		rect 270 -0.86 24 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 8 9 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_5"
+		visible 1
+		rect 265 -0.86 29 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 10 11 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_6"
+		visible 1
+		rect 259 -0.86 35 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 12 13 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_7"
+		visible 1
+		rect 253 -0.86 41 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 14 15 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_8"
+		visible 1
+		rect 247 -0.86 47 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 16 17 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_9"
+		visible 1
+		rect 241 -0.86 53 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 18 19 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_10"
+		visible 1
+		rect 235 -0.86 59 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 20 21 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_11"
+		visible 1
+		rect 229 -0.86 65 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 22 23 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_12"
+		visible 1
+		rect 223 -0.86 71 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 24 25 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_13"
+		visible 1
+		rect 218 -0.86 76 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 26 27 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_14"
+		visible 1
+		rect 212 -0.86 82 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 28 29 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_15"
+		visible 1
+		rect 206 -0.86 88 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 30 31 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_16"
+		visible 1
+		rect 200 -0.86 94 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 32 33 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_17"
+		visible 1
+		rect 194 -0.86 100 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 34 35 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_18"
+		visible 1
+		rect 188 -0.86 106 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 36 37 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_19"
+		visible 1
+		rect 182 -0.86 112 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 38 39 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_20"
+		visible 1
+		rect 176 -0.86 118 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 40 41 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_21"
+		visible 1
+		rect 171 -0.86 123 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 42 43 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_22"
+		visible 1
+		rect 165 -0.86 129 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 44 45 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_23"
+		visible 1
+		rect 159 -0.86 135 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 46 47 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_24"
+		visible 1
+		rect 153 -0.86 141 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 48 49 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_25"
+		visible 1
+		rect 147 -0.86 147 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 50 51 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_26"
+		visible 1
+		rect 141 -0.86 153 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 52 53 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_27"
+		visible 1
+		rect 135 -0.86 159 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 54 55 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_28"
+		visible 1
+		rect 129 -0.86 165 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 56 57 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_29"
+		visible 1
+		rect 123 -0.86 171 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 58 59 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_30"
+		visible 1
+		rect 118 -0.86 176 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 60 61 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_31"
+		visible 1
+		rect 112 -0.86 182 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 62 63 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_32"
+		visible 1
+		rect 106 -0.86 188 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 64 65 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_33"
+		visible 1
+		rect 100 -0.86 194 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 66 67 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_34"
+		visible 1
+		rect 94 -0.86 200 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 68 69 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_35"
+		visible 1
+		rect 88 -0.86 206 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 70 71 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_36"
+		visible 1
+		rect 82 -0.86 212 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 72 73 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_37"
+		visible 1
+		rect 76 -0.86 218 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 74 75 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_38"
+		visible 1
+		rect 71 -0.86 223 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 76 77 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_39"
+		visible 1
+		rect 65 -0.86 229 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 78 79 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_40"
+		visible 1
+		rect 59 -0.86 235 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 80 81 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_41"
+		visible 1
+		rect 53 -0.86 241 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 82 83 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_42"
+		visible 1
+		rect 47 -0.86 247 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 84 85 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_43"
+		visible 1
+		rect 41 -0.86 253 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 86 87 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_44"
+		visible 1
+		rect 35 -0.86 259 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 88 89 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_45"
+		visible 1
+		rect 29 -0.86 265 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 90 91 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_46"
+		visible 1
+		rect 24 -0.86 270 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 92 93 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_47"
+		visible 1
+		rect 18 -0.86 276 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 94 95 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_48"
+		visible 1
+		rect 12 -0.86 282 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 96 97 1 1 1 0.65 
+	}
+	itemDef {
+		name "bar_100_49"
+		visible 1
+		rect 6 -0.86 288 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 98 99 1 1 1 0.65 
+	}
+
+	itemDef {
+		name "bar_100"
+		visible 1
+		rect 0 -0.86 294 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 100 200 1 1 1 0.65 
+	}
+	
+	itemDef {
+		name "bar_200_1"
+		visible 1
+		rect 288 -0.86 6 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 102 103 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_2"
+		visible 1
+		rect 282 -0.86 12 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 104 105 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_3"
+		visible 1
+		rect 276 -0.86 18 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 106 107 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_4"
+		visible 1
+		rect 270 -0.86 24 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 108 109 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_5"
+		visible 1
+		rect 265 -0.86 29 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 110 111 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_6"
+		visible 1
+		rect 259 -0.86 35 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 112 113 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_7"
+		visible 1
+		rect 253 -0.86 41 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 114 115 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_8"
+		visible 1
+		rect 247 -0.86 47 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 116 117 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_9"
+		visible 1
+		rect 241 -0.86 53 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 118 119 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_10"
+		visible 1
+		rect 235 -0.86 59 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 120 121 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_11"
+		visible 1
+		rect 229 -0.86 65 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 122 123 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_12"
+		visible 1
+		rect 223 -0.86 71 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 124 125 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_13"
+		visible 1
+		rect 218 -0.86 76 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 126 127 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_14"
+		visible 1
+		rect 212 -0.86 82 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 128 129 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_15"
+		visible 1
+		rect 206 -0.86 88 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 130 131 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_16"
+		visible 1
+		rect 200 -0.86 94 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 132 133 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_17"
+		visible 1
+		rect 194 -0.86 100 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 134 135 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_18"
+		visible 1
+		rect 188 -0.86 106 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 136 137 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_19"
+		visible 1
+		rect 182 -0.86 112 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 138 139 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_20"
+		visible 1
+		rect 176 -0.86 118 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 140 141 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_21"
+		visible 1
+		rect 171 -0.86 123 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 142 143 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_22"
+		visible 1
+		rect 165 -0.86 129 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 144 145 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_23"
+		visible 1
+		rect 159 -0.86 135 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 146 147 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_24"
+		visible 1
+		rect 153 -0.86 141 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 148 149 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_25"
+		visible 1
+		rect 147 -0.86 147 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 150 151 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_26"
+		visible 1
+		rect 141 -0.86 153 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 152 153 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_27"
+		visible 1
+		rect 135 -0.86 159 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 154 155 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_28"
+		visible 1
+		rect 129 -0.86 165 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 156 157 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_29"
+		visible 1
+		rect 123 -0.86 171 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 158 159 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_30"
+		visible 1
+		rect 118 -0.86 176 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 160 161 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_31"
+		visible 1
+		rect 112 -0.86 182 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 162 163 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_32"
+		visible 1
+		rect 106 -0.86 188 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 164 165 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_33"
+		visible 1
+		rect 100 -0.86 194 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 166 167 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_34"
+		visible 1
+		rect 94 -0.86 200 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 168 169 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_35"
+		visible 1
+		rect 88 -0.86 206 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 170 171 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_36"
+		visible 1
+		rect 82 -0.86 212 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 172 173 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_37"
+		visible 1
+		rect 76 -0.86 218 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 174 175 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_38"
+		visible 1
+		rect 71 -0.86 223 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 176 177 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_39"
+		visible 1
+		rect 65 -0.86 229 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 178 179 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_40"
+		visible 1
+		rect 59 -0.86 235 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 180 181 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_41"
+		visible 1
+		rect 53 -0.86 241 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 182 183 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_42"
+		visible 1
+		rect 47 -0.86 247 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 184 185 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_43"
+		visible 1
+		rect 41 -0.86 253 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 186 187 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_44"
+		visible 1
+		rect 35 -0.86 259 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 188 189 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_45"
+		visible 1
+		rect 29 -0.86 265 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 190 191 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_46"
+		visible 1
+		rect 24 -0.86 270 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 192 193 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_47"
+		visible 1
+		rect 18 -0.86 276 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 194 195 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_48"
+		visible 1
+		rect 12 -0.86 282 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 196 197 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_49"
+		visible 1
+		rect 6 -0.86 288 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 198 199 1 0 0 0.8 
+	}
+	itemDef {
+		name "bar_200_50"
+		visible 1
+		rect 0 -0.86 294 13.71 
+		style 1
+		background "ui/assets/score/statsfillm"
+		forecolor 0 0 0 0
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange 200 201 1 0 0 0.8 
+	}
+}
+
+/* --- Health indicator --- */
+
+menuDef {
+	name "healthIndicator"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 240 435 60 21 
+
+	
+	itemDef {
+		name "healthIndicatorIcon" 
+		rect 0 0 0 0 
+		visible 1
+		decoration
+		style 1
+		backcolor 1 1 1 1 
+		background "ui/assets/hud/health.tga"
+	}
+	
+	itemDef {
+		name "healthIndicatorCounter"
+		rect 0 0 60 21 
+		visible 1
+		textalign 0
+		decoration
+		textstyle 3 
+		forecolor 1 1 1 0.6 
+		textscale 0.58 
+		ownerdraw CG_PLAYER_HEALTH
+		addColorRange -999 25 1 0 0 0.6 
+		addColorRange 26 100 1 1 1 0.6 
+		addColorRange 101 999 1 1 1 0.6 
+	}
+}
+
+/* --- Armor indicator --- */
+menuDef {
+	name "armorIndicator"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 340 435 60 21 
+	
+	itemDef {
+		name "armorIndicatorIcon" 
+		rect 0 0 0 0 
+		visible 1
+		decoration
+		style 1
+		backcolor 1 1 1 1 
+		background "ui/assets/hud/armor.tga"
+		ownerdraw CG_TEAM_COLORIZED 
+	
+	}
+
+	itemDef {
+		name "armorIndicatorCounter"
+		rect 0 0 60 21 
+		visible 1
+		textalign 0
+		decoration
+		textstyle 3 
+		forecolor 1 1 1 0.61 
+		textscale 0.58 
+		ownerdraw CG_PLAYER_ARMOR_VALUE
+		addColorRange -999 25 1 0 0 0.61 
+		addColorRange 26 100 1 1 1 0.61 
+		addColorRange 101 999 1 1 1 0.61 
+	}
+}
+
+/* --- powerup indicator --- */
+menuDef {
+	name "powerupIndicator"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 499 421 61 29 
+	
+	itemDef {
+		name "powerupIndicatorArea"
+		rect 0 0 24 24 
+		visible 1
+		decoration
+		textscale 0.55 
+		forecolor 1 1 1 1 
+		textstyle 3
+		ownerdraw CG_AREA_POWERUP
+		special 38 
+		align HUD_HORIZONTAL 
+	}
+}
+
+/* --- Usable player item --- */
+menuDef {
+	name "playerItem"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 601 381 27 27 
+
+	itemDef {
+      	name "playerItemIcon"
+      	rect 0 0 27 27 
+		visible 1
+		decoration
+		ownerdraw CG_PLAYER_ITEM  
+	}
+}
+
+
+
+/* --- graphical obits	 --- */
+menuDef {
+	name "obits"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 554 9 76 15 
+
+	itemDef {
+		name "obituaries"
+		rect 0 12 65 12
+		visible 1
+		textscale .22
+		ownerdraw CG_PLAYER_OBIT	
+	}
+}
+
+
+
+/* --- Flag indicator --- */
+
+//red player has blue flag
+menuDef {
+	name "flagIndicator"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 607 347 21 21 
+	ownerdrawflag CG_SHOW_IF_PLYR_IS_ON_RED
+	
+	itemDef {
+		name "playerRect"
+		rect 0 0 21 21 
+		visible 1
+		style 3
+		background "ui/assets/hud/flag"
+		ownerdrawflag CG_SHOW_IF_PLAYER_HAS_FLAG
+	}
+
+	itemDef {
+      	name "flag"
+        rect 2 2 17 17 
+		visible 1
+		decoration
+		style 1
+		ownerdrawflag CG_SHOW_IF_PLAYER_HAS_FLAG  
+		backcolor 0.2 0.35 1 0.9
+		background "ui/assets/statusbar/flag_in_base"
+	}
+}
+
+//blue player has red flag
+menuDef {
+	name "flagIndicator"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 607 347 21 21 
+	ownerdrawflag CG_SHOW_IF_PLYR_IS_ON_BLUE
+	
+	itemDef {
+		name "playerRect"
+		rect 0 0 21 21 
+		visible 1
+		style 3
+		background "ui/assets/hud/flag"
+		ownerdrawflag CG_SHOW_IF_PLAYER_HAS_FLAG
+	}
+
+	itemDef {
+      	name "flag"
+        rect 2 2 17 17 
+		visible 1
+		decoration
+		style 1
+		ownerdrawflag CG_SHOW_IF_PLAYER_HAS_FLAG  
+		backcolor 1 0 0 0.9
+		background "ui/assets/statusbar/flag_in_base"
+	}
+}
+
+/* --- Timer --- */
+
+menuDef {
+	name "timer"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 288 14 64 26 
+	
+	itemDef {
+		name "timerIcon"
+		rect 0 0 0 0 
+		visible 1
+		decoration		
+		style 1
+		backcolor 1 1 1 1 
+		background "icons/icon_time.tga"
+	}
+
+	itemDef {
+		name "timerCounter"
+		rect 0 26 64 26 
+		visible 1
+		textalign 0
+		decoration
+		textstyle 3 
+		forecolor 1 1 1 1 
+		textscale 0.73 
+		ownerdraw CG_LEVELTIMER
+	}
+}
+
+/* --- TOP LEFT SCORE BOX --- */
+menuDef {
+	name "ScoreFrame"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect 5 5 32 256
+//Score Frame BG, can be scaled wider if needed to make more room for names
+	itemDef {
+     	name "scoreboxl"
+		rect -1.5 -5.5 8 63
+		visible 1
+		decoration
+		backcolor 1 1 1 0.57
+		style 1
+		background "ui/assets/hud/scoreboxl2.tga"
+	}
+	itemDef {
+     	name "scorebox2"
+		rect 6.5 -5.5 167 63 
+		visible 1
+		decoration
+		backcolor 1 1 1 0.57
+		style 1
+		background "ui/assets/hud/scoreboxm.tga"
+	}
+	itemDef {
+     	name "scorebox3"
+		rect 173.5 -5.5 8 63 
+		visible 1
+		decoration
+		backcolor 1 1 1 0.57
+		style 1
+		background "ui/assets/hud/scoreboxr.tga"
+	}
+//GAMETYPE ICON
+	itemDef {
+     	name "scorebox2a"
+		rect 0.5 -2 28 36 
+		visible 1
+		decoration
+		backcolor 1 1 1 1
+		style 1
+		background "ui/assets/score/btn.tga"
+	}
+	itemDef {
+		name "gameType"
+		rect 6 3 18 18
+		style 0
+		backcolor 1 1 1 1
+		ownerdraw CG_GAME_TYPE_ICON
+		visible 1
+		decoration
+	}	
+//WIN VALUE
+	itemDef {
+      	name "WinLimit"
+      	textalign 1
+        rect 7 33 40 12
+		visible 1
+    	decoration
+		forecolor 1 1 1 0.6
+		textscale .24
+		ownerdraw CG_CAPFRAGLIMIT 
+	}
+}
+
+// RED TEAM BAR TOP
+menuDef {
+	name "RedFrameTeam"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 5 32 256
+	ownerdrawflag CG_SHOW_IF_RED_IS_FIRST_PLACE// AND CG_SHOW_ANYNONTEAMGAME
+
+	//red team flag alert - top left
+	itemDef {
+     	name "TeamRLeft"
+		rect 30 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/rteambgl.tga"
+		ownerdrawflag CG_SHOW_RED_TEAM_HAS_BLUEFLAG
+	}
+	//red team flag alert - bottom right
+	itemDef {
+     	name "TeamRLeft"
+		rect 50 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/rteambgr.tga"
+		ownerdrawflag CG_SHOW_RED_TEAM_HAS_BLUEFLAG
+	}
+		
+	//clan arena count
+	itemDef {
+		name "clanArena"
+		rect 32 4 21 11
+		visible 1
+		backcolor 1 1 1 1
+		decoration	
+		style 1
+	    cvartest g_gametype
+		showcvar { 3,4 }
+		background "ui/assets/score/ca_score_red.tga"
+	}
+    itemdef {
+	    name "redClanPlayers"
+//	    ownerdrawflag CG_SHOW_CLAN_ARENA
+	    ownerdraw CG_RED_CLAN_PLYRS  
+   	    rect 44 13 136 40
+   	    visible 1
+	    textscale .18
+	    forecolor 1 1 1 0.65
+	    decoration
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		bordercolor 1 1 1 1
+		decoration	
+		style 3
+		ownerdrawflag CG_SHOW_HARVESTER                 
+		background "icons/skull_red.tga"
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		decoration
+		ownerdrawflag CG_SHOW_CTF                       
+		ownerdraw CG_RED_FLAGSTATUS
+	}
+}
+
+// RED TEAM BAR BOTTOM
+menuDef {
+	name "RedFrameTeam"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 21 32 256
+	ownerdrawflag CG_SHOW_IF_BLUE_IS_FIRST_PLACE// AND CG_SHOW_ANYNONTEAMGAME
+
+	//red team flag alert - top left
+	itemDef {
+     	name "TeamRLeft"
+		rect 30 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/rteambgl.tga"
+		ownerdrawflag CG_SHOW_RED_TEAM_HAS_BLUEFLAG
+	}
+	//red team flag alert - bottom right
+	itemDef {
+     	name "TeamRLeft"
+		rect 50 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/rteambgr.tga"
+		ownerdrawflag CG_SHOW_RED_TEAM_HAS_BLUEFLAG
+	}
+		
+	//clan arena count
+	itemDef {
+		name "clanArena"
+		rect 32 4 21 11
+		visible 1
+		backcolor 1 1 1 1
+		decoration	
+		style 1
+	    cvartest g_gametype
+		showcvar { 3,4 }
+		background "ui/assets/score/ca_score_red.tga"
+	}
+    itemdef {
+	    name "redClanPlayers"
+//	    ownerdrawflag CG_SHOW_CLAN_ARENA
+	    ownerdraw CG_RED_CLAN_PLYRS  
+   	    rect 44 13 136 40
+   	    visible 1
+	    textscale .18
+	    forecolor 1 1 1 0.65
+	    decoration
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		bordercolor 1 1 1 1
+		decoration	
+		style 3
+		ownerdrawflag CG_SHOW_HARVESTER                 
+		background "icons/skull_red.tga"
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		decoration
+		ownerdrawflag CG_SHOW_CTF                       
+		ownerdraw CG_RED_FLAGSTATUS
+	}
+}
+// BLUE TEAM BAR TOP
+menuDef {
+	name "BlueFrameTeam"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 5 32 256
+	ownerdrawflag CG_SHOW_IF_BLUE_IS_FIRST_PLACE// AND CG_SHOW_ANYNONTEAMGAME
+
+	//blue team flag alert - top left
+	itemDef {
+     	name "TeamRLeft"
+		rect 30 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/bteambgl.tga"
+		ownerdrawflag CG_SHOW_BLUE_TEAM_HAS_REDFLAG
+	}
+	//blue team flag alert - bottom right
+	itemDef {
+     	name "TeamRLeft"
+		rect 50 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/bteambgr.tga"
+		ownerdrawflag CG_SHOW_BLUE_TEAM_HAS_REDFLAG
+	}
+		
+	//clan arena count
+	itemDef {
+		name "clanArena"
+		rect 32 4 21 11
+		visible 1
+		backcolor 1 1 1 1
+		decoration	
+		style 1
+	    cvartest g_gametype
+		showcvar { 3,4 }
+		background "ui/assets/score/ca_score_blu.tga"
+	}
+    	itemdef {
+	    name "blueClanPlayers"
+	    ownerdrawflag CG_SHOW_CLAN_ARENA
+	    ownerdraw CG_BLUE_CLAN_PLYRS  
+   	    rect 44 13 136 40
+   	    visible 1
+	    textscale .18
+	    forecolor 1 1 1 0.65
+	    decoration
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		bordercolor 1 1 1 .75
+		decoration	
+		style 3
+		ownerdrawflag CG_SHOW_HARVESTER                 
+		background "icons/skull_blue.tga"
+	}
+	itemDef {
+		name "blueflag"
+		rect 36 3 13 13
+		visible 1
+		decoration    
+		ownerdrawflag CG_SHOW_CTF                    	
+		ownerdraw CG_BLUE_FLAGSTATUS
+	}
+	itemDef {
+		name "oneflagstatus"
+		rect 36 3 13 13
+		visible 1
+		decoration                	
+		ownerdraw CG_ONEFLAG_STATUS 
+	}
+}
+// BLUE TEAM BAR BOTTOM
+menuDef {
+	name "BlueFrameTeam"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 21 32 256
+	ownerdrawflag CG_SHOW_IF_RED_IS_FIRST_PLACE// AND CG_SHOW_ANYNONTEAMGAME
+
+	//red team flag alert - align to right
+	itemDef {
+     	name "TeamRLeft"
+		rect 30 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/bteambgl.tga"
+		ownerdrawflag CG_SHOW_BLUE_TEAM_HAS_REDFLAG
+	}
+	//red team flag alert - align to right
+	itemDef {
+     	name "TeamRLeft"
+		rect 50 2 128 15 
+		visible 1
+		decoration
+		backcolor 1 0 0 0.3
+		style 1
+		background "ui/assets/hud/bteambgr.tga"
+		ownerdrawflag CG_SHOW_BLUE_TEAM_HAS_REDFLAG
+	}
+	
+	//clan arena count
+	itemDef {
+		name "clanArena"
+		rect 32 4 21 11
+		visible 1
+		backcolor 1 1 1 1
+		decoration	
+		style 1
+	    cvartest g_gametype
+		showcvar { 3,4 }
+		background "ui/assets/score/ca_score_blu.tga"
+	}
+    	itemdef {
+	    name "blueClanPlayers"
+	    ownerdrawflag CG_SHOW_CLAN_ARENA
+	    ownerdraw CG_BLUE_CLAN_PLYRS  
+   	    rect 44 13 136 40
+   	    visible 1
+	    textscale .18
+	    forecolor 1 1 1 0.65
+	    decoration
+	}
+	itemDef {
+		name "f"
+		rect 36 3 13 13
+		visible 1
+		bordercolor 1 1 1 .75
+		decoration	
+		style 3
+		ownerdrawflag CG_SHOW_HARVESTER                 
+		background "icons/skull_blue.tga"
+	}
+	itemDef {
+		name "blueflag"
+		rect 36 3 13 13
+		visible 1
+		decoration    
+		ownerdrawflag CG_SHOW_CTF                    	
+		ownerdraw CG_BLUE_FLAGSTATUS
+	}
+	itemDef {
+		name "oneflagstatus"
+		rect 36 3 13 13
+		visible 1
+		decoration                	
+		ownerdraw CG_ONEFLAG_STATUS 
+	}
+}
+
+// DM/TOURNAMENT BAR
+menuDef {
+	name "SelfFrameHighlights"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 5 32 256
+
+	//self top highlight
+	itemDef {
+     	name "SelfTLeft"
+		rect 30 2 16 16 
+		visible 1
+		decoration
+		ownerdraw CG_TEAM_COLORIZED
+		ownerdrawflag CG_SHOW_IF_PLYR_IS_FIRST_PLACE
+		style 1
+		background "ui/assets/hud/teamonl.tga"
+	}
+	itemDef {
+     	name "SelfTMid"
+		rect 46 2 116 16 
+		visible 1
+		decoration
+		ownerdraw CG_TEAM_COLORIZED
+		ownerdrawflag CG_SHOW_IF_PLYR_IS_FIRST_PLACE
+		style 1
+		background "ui/assets/hud/teamonm.tga"
+	}
+	itemDef {
+     	name "SelfTLeft"
+		rect 162 2 16 16 
+		visible 1
+		decoration
+		ownerdraw CG_TEAM_COLORIZED
+		ownerdrawflag CG_SHOW_IF_PLYR_IS_FIRST_PLACE
+		style 1
+		background "ui/assets/hud/teamonr.tga"
+	}
+	//self bottom highlight
+	itemDef {
+     	name "SelfBLeft"
+	rect 30 18 16 16 
+	visible 1
+   	decoration
+	ownerdraw CG_TEAM_COLORIZED
+	ownerdrawflag CG_SHOW_IF_PLYR_IS_NOT_FIRST_PLACE
+	style 1
+	background "ui/assets/hud/teamonl.tga"
+	}
+	itemDef {
+     	name "SelfBMid"
+	rect 46 18 116 16 
+	visible 1
+   	decoration
+	ownerdraw CG_TEAM_COLORIZED
+	ownerdrawflag CG_SHOW_IF_PLYR_IS_NOT_FIRST_PLACE
+	style 1
+	background "ui/assets/hud/teamonm.tga"
+	}
+	itemDef {
+     	name "SelfBLeft"
+	rect 162 18 16 16 
+	visible 1
+   	decoration
+	ownerdraw CG_TEAM_COLORIZED
+	ownerdrawflag CG_SHOW_IF_PLYR_IS_NOT_FIRST_PLACE
+	style 1
+	background "ui/assets/hud/teamonr.tga"
+	}
+}
+
+// this is the item def for the 1st place text
+menuDef {
+	name "scores"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE	
+	rect  5 5 120 40
+	
+    itemdef {
+	    name "1stplace"
+	    ownerdraw CG_1ST_PLACE_SCORE
+   	    rect 38 14 136 40
+   	    visible 1
+		textscale .22
+	    decoration
+	}
+
+// this is the item def for the 2nd place text
+    itemdef {
+	    name "2ndplace"
+	    ownerdraw CG_2ND_PLACE_SCORE
+   	    rect 38 30 136 40
+   	    visible 1
+		textscale .22
+	    decoration
+	}
+}
+
+/* --- Accuracy indicator --- */
+menuDef {
+	name "Accuracy"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 9 48 26 7		
+	itemDef {
+		name "accuracyIcon"		
+		rect 0 0 0 0		decoration
+		visible 1
+		style 1
+		backcolor 1 1 1 1		background "ui/assets/medal_accuracy.png"
+	}
+			
+  	itemDef {
+		name "accuracyValue"
+		rect 0 7 26 7		decoration
+		visible 1
+		style 1
+		visible MENU_TRUE
+		ownerdraw CG_SELECTED_PLYR_ACCURACY
+		textstyle 3		forecolor 0.4 0.7 1 1		textscale 0.2	}  
+		
+
+}
+
+/* --- chat area --- */
+menuDef {
+	name "chat area"
+	fullScreen MENU_FALSE
+	visible MENU_TRUE
+	rect 0 0 32 256
+
+	//chatbgLeft
+	itemDef {
+		name "chatBgLeft"
+		rect 3 345 16 64 
+		visible 1
+		ownerdrawflag CG_SHOW_IF_CHAT_VISIBLE
+		decoration
+		backcolor 0 0 0 0.5
+		style 1
+		background "ui/assets/hud/chatl.tga"
+	}
+	//chatbgMid
+	itemDef {
+		name "chatBgLeft"
+		rect 19 345 601 64 
+		visible 1
+		ownerdrawflag CG_SHOW_IF_CHAT_VISIBLE
+		decoration
+		backcolor 0 0 0 0.5
+		style 1
+		background "ui/assets/hud/chatm.tga"
+	}
+	//chatbgRight
+	itemDef {
+		name "chatBgLeft"
+		rect 620 345 16 64 
+		visible 1
+		ownerdrawflag CG_SHOW_IF_CHAT_VISIBLE
+		decoration
+		backcolor 0 0 0 0.5
+		style 1
+		background "ui/assets/hud/chatr.tga"
+	}
+    itemdef {
+	    name chatWindow
+	    ownerdraw CG_AREA_NEW_CHAT
+   	    rect 5 287 634 120
+   	    visible 1
+	    decoration
+	}
+}
+
