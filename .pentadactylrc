@@ -8,5 +8,6 @@ map l gt
 map <S-j> 8j
 map <S-k> 8k
 set go+=B
+set defsearch=duckduckgo
 
 " vim: set ft=pentadactyl:
